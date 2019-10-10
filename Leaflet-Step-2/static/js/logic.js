@@ -70,7 +70,6 @@ function createMap(earthQuakeLayer,tectonicPlatesLayer) {
   var mbAttr = 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
   var mbUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
   var satelitemap = L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr});
-
    
     // Create a baseMaps object to hold the Grayscale layer
     var baseMaps = {
